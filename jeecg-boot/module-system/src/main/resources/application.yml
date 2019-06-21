@@ -5,5 +5,5 @@ swagger:
   production: false
   basic:
     enable: true
-    username: jeecg
-    password: jeecg1314
+    username: wangyan
+    password: 123456

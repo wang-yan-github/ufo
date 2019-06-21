@@ -10,9 +10,9 @@ import java.net.URLDecoder;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.jeecg.common.api.vo.Result;
-import org.jeecg.common.system.query.QueryGenerator;
-import org.jeecg.common.util.oConvertUtils;
+import Result;
+import QueryGenerator;
+import oConvertUtils;
 import ${bussiPackage}.entity.${entityPackage}.${entityName};
 import ${bussiPackage}.service.${entityPackage}.I${entityName}Service;
 
@@ -38,7 +38,7 @@ import com.alibaba.fastjson.JSON;
 
  /**
  * @Description: ${tableVo.ftlDescription}
- * @Author: jeecg-boot
+ * @Author: wang-yan
  * @Date:   ${.now?string["yyyy-MM-dd"]}
  * @Version: V1.0
  */
