@@ -2,3 +2,6 @@
 *.css linguist-language=Java
 *.html linguist-language=Java
 *.vue linguist-language=Java
+
+*.idea
+.logs
