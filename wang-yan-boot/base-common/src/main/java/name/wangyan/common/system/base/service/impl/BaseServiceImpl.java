@@ -9,7 +9,7 @@ import lombok.extern.slf4j.Slf4j;
 
 /**
  * @Description: ServiceImpl基类
- * @Author: wangYanJava@Gmail.com
+ * @Author: wang-yan
  * @Date: 2019-4-21 8:13
  * @Version: 1.0
  */

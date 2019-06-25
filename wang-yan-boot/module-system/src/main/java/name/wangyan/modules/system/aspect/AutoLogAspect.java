@@ -27,7 +27,6 @@ import com.alibaba.fastjson.JSONObject;
  * 系统日志，切面处理类
  * 
  * @Author wang-yan
- * @email wangYanJava@Gmail.com
  * @Date 2018年1月14日
  */
 @Aspect

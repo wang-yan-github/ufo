@@ -92,7 +92,7 @@ public class Swagger2Config implements WebMvcConfigurer {
 				// 描述
 				.description("restful 风格接口")
 				// 作者
-//				.contact(new Contact("wang-yan", "http://jeecg.org", "wangYanJava@Gmail.com"))
+//				.contact(new Contact("wang-yan", "http://jeecg.org", "wang-yan"))
 //                .license("The Apache License, Version 2.0")
 //                .licenseUrl("http://www.apache.org/licenses/LICENSE-2.0.html")
 				.build();

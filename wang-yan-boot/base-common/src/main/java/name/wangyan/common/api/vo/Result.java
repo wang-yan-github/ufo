@@ -11,7 +11,6 @@ import lombok.Data;
 /**
  *   接口返回数据格式
  * @author wang-yan
- * @email wangYanJava@Gmail.com
  * @date  2019年1月19日
  */
 @Data

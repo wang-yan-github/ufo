@@ -2,7 +2,7 @@ package name.wangyan.common.constant;
 
 /**
  * 	系统通告 - 发布状态
- * @Author LeeShaoQing
+ * @Author wang-yan
  *
  */
 public interface CommonSendStatus {

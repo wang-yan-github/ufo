@@ -8,7 +8,7 @@ import java.lang.annotation.Target;
 
 /**
   *  数据权限注解
- * @Author taoyan
+ * @Author wang-yan
  * @Date 2019年4月11日
  */
 @Retention(RetentionPolicy.RUNTIME)

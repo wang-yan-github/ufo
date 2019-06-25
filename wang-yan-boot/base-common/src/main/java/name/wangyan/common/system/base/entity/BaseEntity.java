@@ -14,7 +14,7 @@ import lombok.experimental.Accessors;
 
 /**
  * @Description: Entity基类
- * @Author: wangYanJava@Gmail.com
+ * @Author: wang-yan
  * @Date: 2019-4-28
  * @Version: 1.1
  */

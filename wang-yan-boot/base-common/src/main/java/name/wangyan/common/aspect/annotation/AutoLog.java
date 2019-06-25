@@ -12,7 +12,6 @@ import name.wangyan.common.constant.CommonConstant;
  * 系统日志注解
  * 
  * @Author wang-yan
- * @email wangYanJava@Gmail.com
  * @Date 2019年1月14日
  */
 @Target(ElementType.METHOD)

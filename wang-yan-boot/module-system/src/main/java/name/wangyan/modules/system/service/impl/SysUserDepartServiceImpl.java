@@ -127,12 +127,12 @@ public class SysUserDepartServiceImpl extends ServiceImpl<SysUserDepartMapper, S
 				userIdList.add(uDep.getUserId());
 			}
 			List<SysUser> userList = (List<SysUser>) sysUserService.listByIds(userIdList);
-			//update-begin-author:taoyan date:201905047 for:接口调用查询返回结果不能返回密码相关信息
+			//update-begin-author:wang-yan date:201905047 for:接口调用查询返回结果不能返回密码相关信息
 			for (SysUser sysUser : userList) {
 				sysUser.setSalt("");
 				sysUser.setPassword("");
 			}
-			//update-end-author:taoyan date:201905047 for:接口调用查询返回结果不能返回密码相关信息
+			//update-end-author:wang-yan date:201905047 for:接口调用查询返回结果不能返回密码相关信息
 			return userList;
 		}
 		return new ArrayList<SysUser>();

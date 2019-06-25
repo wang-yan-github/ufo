@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
  * IP地址
  * 
  * @Author wang-yan
- * @email wangYanJava@Gmail.com
+ * @email wang-yan
  * @Date 2019年01月14日
  */
 public class IPUtils {
