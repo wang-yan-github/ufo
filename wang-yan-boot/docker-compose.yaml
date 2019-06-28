@@ -4,6 +4,8 @@ services:
     container_name: v-nginx
     image: nginx:1.13
     restart: always
+    networks:
+      - app
     ports:
       - 80:80
       - 443:443
@@ -17,12 +19,16 @@ services:
       MYSQL_DATABASE: wang-yan-boot
       MYSQL_ROOT_PASSWORD: root
       MYSQL_ROOT_HOST: '%'
-    command:
-      -character-set-server=utf8mb4
-      -collation-server=utf8mb4_general_ci
-      -explicit_defaults_for_timestamp=true
-      -lower_case_table_names=1
-      -max_allowed_packet=128M
+    command: mysqld
+      --lower_case_table_names=1
+      --character-set-server=utf8mb4
+      --collation-server=utf8mb4_unicode_ci
+      --init-connect='SET NAMES utf8mb4;'
+      --innodb-flush-log-at-trx-commit=0
+      --explicit_defaults_for_timestamp=true
+      --default-authentication-plugin=mysql_native_password
+    networks:
+      - app
     ports:
       - "3306:3306"
     volumes:
@@ -33,6 +39,8 @@ services:
   redis:
     container_name: v-redis
     image: redis:5.0.5
+    networks:
+      - app
     ports:
       - "6379:6379"
     volumes:
@@ -46,6 +54,8 @@ services:
     volumes:
       - ./:/app
       - ~/.m2:/root/.m2
+    networks:
+      - app
     expose:
       - "8080"
     depends_on:
@@ -53,3 +63,13 @@ services:
       - mysql
       - redis
     command: mvn clean spring-boot:run
+networks:
+  app:
+    external: true
+# 配置日志驱动的相关参数
+logging:
+  driver: syslog
+options:
+  max-size: "200k"
+  max-file: "10"
+
