@@ -19,9 +19,9 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @Configuration
 public class WebMvcConfiguration implements WebMvcConfigurer {
 
-	@Value("${wangyan.path.upload}")
+	@Value("${framework.path.upload}")
 	private String upLoadPath;
-	@Value("${wangyan.path.webapp}")
+	@Value("${framework.path.webapp}")
 	private String webAppPath;
 	@Value("${spring.resource.static-locations}")
 	private String staticLocations;

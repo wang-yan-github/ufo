@@ -3,11 +3,11 @@ services:
   nginx:
     container_name: v-nginx
     image: nginx:1.13
-    restart: always
     ports:
       - 8080:80
     volumes:
       - ./project-tools/nginx/conf.d:/etc/nginx/conf.d
+    restart: always
 
   mysql:
     container_name: v-mysql
@@ -38,6 +38,7 @@ services:
       - "6379:6379"
     volumes:
       - ./project-tools/redis/data:/data
+    restart: always
 
   app:
     restart: always

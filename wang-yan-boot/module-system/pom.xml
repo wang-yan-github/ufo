@@ -3,13 +3,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>name.wangyan</groupId>
-	<artifactId>wang-yan-module-system</artifactId>
+	<groupId>work.framework</groupId>
+	<artifactId>module-system</artifactId>
 	<version>1.0.0</version>
 
 	<parent>
-		<groupId>wangyan.name</groupId>
-		<artifactId>wang-yan-parent</artifactId>
+		<groupId>work.framework</groupId>
+		<artifactId>parent</artifactId>
 		<version>1.0.0</version>
 	</parent>
 
@@ -34,8 +34,8 @@
 	
 	<dependencies>
 		<dependency>
-			<groupId>wangyan.name</groupId>
-			<artifactId>wang-yan-base-common</artifactId>
+			<groupId>work.framework</groupId>
+			<artifactId>base-common</artifactId>
 			<version>1.0.0</version>
 		</dependency>
 	</dependencies>
