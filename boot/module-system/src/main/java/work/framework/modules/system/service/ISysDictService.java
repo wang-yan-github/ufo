@@ -12,7 +12,7 @@ import work.framework.modules.system.entity.SysDictItem;
  * 字典表 服务类
  * </p>
  *
- * @Author zhangweijian
+ * @Author wang-yan
  * @since 2018-12-28
  */
 public interface ISysDictService extends IService<SysDict> {

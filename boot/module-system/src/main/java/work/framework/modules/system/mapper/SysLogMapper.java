@@ -12,7 +12,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * 系统日志表 Mapper 接口
  * </p>
  *
- * @Author zhangweijian
+ * @Author wang-yan
  * @since 2018-12-26
  */
 public interface SysLogMapper extends BaseMapper<SysLog> {
@@ -29,7 +29,7 @@ public interface SysLogMapper extends BaseMapper<SysLog> {
 	 */
 	Long findTotalVisitCount();
 
-	//update-begin--Author:zhangweijian  Date:20190428 for：传入开始时间，结束时间参数
+	//update-begin--Author:wang-yan  Date:20190428 for：传入开始时间，结束时间参数
 	/**
 	 * 获取系统今日访问次数
 	 *
@@ -43,5 +43,5 @@ public interface SysLogMapper extends BaseMapper<SysLog> {
 	 * @return Long
 	 */
 	Long findTodayIp(@Param("dayStart") Date dayStart, @Param("dayEnd") Date dayEnd);
-	//update-end--Author:zhangweijian  Date:20190428 for：传入开始时间，结束时间参数
+	//update-end--Author:wang-yan  Date:20190428 for：传入开始时间，结束时间参数
 }

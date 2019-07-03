@@ -16,7 +16,7 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
  * 系统日志表 服务实现类
  * </p>
  *
- * @Author zhangweijian
+ * @Author wang-yan
  * @since 2018-12-26
  */
 @Service
@@ -38,7 +38,7 @@ public class SysLogServiceImpl extends ServiceImpl<SysLogMapper, SysLog> impleme
 		return sysLogMapper.findTotalVisitCount();
 	}
 
-	//update-begin--Author:zhangweijian  Date:20190428 for：传入开始时间，结束时间参数
+	//update-begin--Author:wang-yan  Date:20190428 for：传入开始时间，结束时间参数
 	@Override
 	public Long findTodayVisitCount(Date dayStart, Date dayEnd) {
 		return sysLogMapper.findTodayVisitCount(dayStart,dayEnd);
@@ -48,5 +48,5 @@ public class SysLogServiceImpl extends ServiceImpl<SysLogMapper, SysLog> impleme
 	public Long findTodayIp(Date dayStart, Date dayEnd) {
 		return sysLogMapper.findTodayIp(dayStart,dayEnd);
 	}
-	//update-end--Author:zhangweijian  Date:20190428 for：传入开始时间，结束时间参数
+	//update-end--Author:wang-yan  Date:20190428 for：传入开始时间，结束时间参数
 }

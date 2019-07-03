@@ -14,7 +14,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * 字典表 Mapper 接口
  * </p>
  *
- * @Author zhangweijian
+ * @Author wang-yan
  * @since 2018-12-28
  */
 public interface SysDictMapper extends BaseMapper<SysDict> {

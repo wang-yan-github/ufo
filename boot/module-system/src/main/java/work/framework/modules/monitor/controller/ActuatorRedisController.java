@@ -50,7 +50,7 @@ public class ActuatorRedisController {
         return redisService.getMemoryInfo();
     }
     
-  //update-begin--Author:zhangweijian  Date:20190425 for：获取磁盘信息
+  //update-begin--Author:wang-yan  Date:20190425 for：获取磁盘信息
   	/**
   	 * @功能：获取磁盘信息
   	 * @param request
@@ -87,5 +87,5 @@ public class ActuatorRedisController {
   		}
   		return res;
   	}
-  	//update-end--Author:zhangweijian  Date:20190425 for：获取磁盘信息
+  	//update-end--Author:wang-yan  Date:20190425 for：获取磁盘信息
 }

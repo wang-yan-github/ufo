@@ -10,7 +10,7 @@ import java.util.List;
  *  服务类
  * </p>
  *
- * @Author zhangweijian
+ * @Author wang-yan
  * @since 2018-12-28
  */
 public interface ISysDictItemService extends IService<SysDictItem> {

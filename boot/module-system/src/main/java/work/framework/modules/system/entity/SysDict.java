@@ -15,7 +15,7 @@ import lombok.experimental.Accessors;
  * 字典表
  * </p>
  *
- * @Author zhangweijian
+ * @Author wang-yan
  * @since 2018-12-28
  */
 @Data

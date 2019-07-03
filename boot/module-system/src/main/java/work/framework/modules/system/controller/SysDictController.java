@@ -49,7 +49,7 @@ import org.springframework.web.servlet.ModelAndView;
  * 字典表 前端控制器
  * </p>
  *
- * @Author zhangweijian
+ * @Author wang-yan
  * @since 2018-12-28
  */
 @RestController

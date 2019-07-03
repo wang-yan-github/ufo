@@ -11,7 +11,7 @@ import java.util.List;
  * Mapper 接口
  * </p>
  *
- * @Author zhangweijian
+ * @Author wang-yan
  * @since 2018-12-28
  */
 public interface SysDictItemMapper extends BaseMapper<SysDictItem> {

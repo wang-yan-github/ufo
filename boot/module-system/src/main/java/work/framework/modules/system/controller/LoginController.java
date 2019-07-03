@@ -134,7 +134,7 @@ public class LoginController {
 	public Result<JSONObject> loginfo() {
 		Result<JSONObject> result = new Result<JSONObject>();
 		JSONObject obj = new JSONObject();
-		//update-begin--Author:zhangweijian  Date:20190428 for：传入开始时间，结束时间参数
+		//update-begin--Author:wang-yan  Date:20190428 for：传入开始时间，结束时间参数
 		// 获取一天的开始和结束时间
 		Calendar calendar = new GregorianCalendar();
 		calendar.set(Calendar.HOUR_OF_DAY,0);
@@ -150,7 +150,7 @@ public class LoginController {
 		Long todayVisitCount = logService.findTodayVisitCount(dayStart,dayEnd);
 		obj.put("todayVisitCount", todayVisitCount);
 		Long todayIp = logService.findTodayIp(dayStart,dayEnd);
-		//update-end--Author:zhangweijian  Date:20190428 for：传入开始时间，结束时间参数
+		//update-end--Author:wang-yan  Date:20190428 for：传入开始时间，结束时间参数
 		obj.put("todayIp", todayIp);
 		result.setResult(obj);
 		result.success("登录成功");
