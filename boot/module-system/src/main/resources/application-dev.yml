@@ -110,7 +110,7 @@ spring:
     port: 6379
 #mybatis plus 设置
 mybatis-plus:
-  mapper-locations: classpath*:name/wangyan/modules/**/xml/*Mapper.xml
+  mapper-locations: classpath*:work/framework/modules/**/xml/*Mapper.xml
 
 #专用配置
 framework :
