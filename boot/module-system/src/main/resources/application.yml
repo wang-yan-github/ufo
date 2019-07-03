@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: dev
+swagger:
+  production: false
+  basic:
+    enable: true
+    username: wangyan
+    password: 123456
