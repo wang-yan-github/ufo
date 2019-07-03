@@ -10,10 +10,8 @@ import org.jeecgframework.codegenerate.generate.pojo.onetomany.SubTableVo;
 /**
  * 代码生成器入口【一对多】
  * @Author wang-yan
- * @site www.jeecg.org
- * 
  */
-public class JeecgOneToMainUtil {
+public class OneToMainUtil {
 
 	/**
 	 * 一对多(父子表)数据模型，生成方法
