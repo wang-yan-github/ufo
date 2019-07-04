@@ -6,15 +6,15 @@
  * 版权所有，侵权必究！
  */
 
-package work.framework.modules.system.oss.cloud;
+package work.framework.modules.oss.cloud;
 
 
 import lombok.Data;
 import org.hibernate.validator.constraints.Range;
 import org.hibernate.validator.constraints.URL;
-import work.framework.modules.system.oss.validator.group.AliyunGroup;
-import work.framework.modules.system.oss.validator.group.QcloudGroup;
-import work.framework.modules.system.oss.validator.group.QiniuGroup;
+import work.framework.modules.oss.group.AliyunGroup;
+import work.framework.modules.oss.group.QcloudGroup;
+import work.framework.modules.oss.group.QiniuGroup;
 
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;

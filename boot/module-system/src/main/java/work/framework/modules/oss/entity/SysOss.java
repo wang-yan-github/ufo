@@ -6,7 +6,7 @@
  * 版权所有，侵权必究！
  */
 
-package work.framework.modules.system.entity;
+package work.framework.modules.oss.entity;
 
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;

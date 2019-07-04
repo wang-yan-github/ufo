@@ -6,7 +6,7 @@
  * 版权所有，侵权必究！
  */
 
-package work.framework.modules.system.oss.cloud;
+package work.framework.modules.oss.cloud;
 
 import org.apache.commons.lang.StringUtils;
 import work.framework.common.util.DateUtils;

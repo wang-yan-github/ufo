@@ -1,7 +1,7 @@
-package work.framework.modules.system.service;
+package work.framework.modules.oss.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import work.framework.modules.system.entity.SysOss;
+import work.framework.modules.oss.entity.SysOss;
 
 /**
  * 文件上传

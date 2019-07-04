@@ -6,7 +6,7 @@
  * 版权所有，侵权必究！
  */
 
-package work.framework.modules.system.oss.cloud;
+package work.framework.modules.oss.cloud;
 
 
 import com.qcloud.cos.COSClient;
