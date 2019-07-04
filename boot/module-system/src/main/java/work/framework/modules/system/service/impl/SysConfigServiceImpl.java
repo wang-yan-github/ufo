@@ -13,7 +13,13 @@ import work.framework.modules.system.service.ISysConfigService;
 
 import java.util.Arrays;
 
-@Service
+/**
+ * @Description: 系统配置
+ * @Author: wang-yan
+ * @Date:  2019-07-04
+ * @Version: V1.0
+ */
+@Service("sysConfigService")
 public class SysConfigServiceImpl extends ServiceImpl<SysConfigMapper, SysConfig> implements ISysConfigService {
 
     @Override

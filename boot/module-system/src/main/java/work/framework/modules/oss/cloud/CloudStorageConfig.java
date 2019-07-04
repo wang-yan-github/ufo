@@ -1,20 +1,12 @@
-/**
- * Copyright (c) 2016-2019 人人开源 All rights reserved.
- *
- * https://www.renren.io
- *
- * 版权所有，侵权必究！
- */
-
 package work.framework.modules.oss.cloud;
 
 
 import lombok.Data;
 import org.hibernate.validator.constraints.Range;
 import org.hibernate.validator.constraints.URL;
-import work.framework.modules.oss.group.AliyunGroup;
-import work.framework.modules.oss.group.QcloudGroup;
-import work.framework.modules.oss.group.QiniuGroup;
+import work.framework.modules.oss.validator.group.AliyunGroup;
+import work.framework.modules.oss.validator.group.QcloudGroup;
+import work.framework.modules.oss.validator.group.QiniuGroup;
 
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
