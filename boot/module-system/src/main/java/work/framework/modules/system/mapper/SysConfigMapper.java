@@ -11,7 +11,6 @@ import work.framework.modules.system.entity.SysConfig;
  *
  * @author wang-yan
  */
-@Mapper
 public interface SysConfigMapper extends BaseMapper<SysConfig> {
 
     /**

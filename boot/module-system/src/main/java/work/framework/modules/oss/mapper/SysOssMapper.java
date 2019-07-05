@@ -9,7 +9,6 @@ import work.framework.modules.oss.entity.SysOss;
  *
  * @author wang-yan
  */
-@Mapper
 public interface SysOssMapper extends BaseMapper<SysOss> {
 	
 }

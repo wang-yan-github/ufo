@@ -18,7 +18,7 @@ import lombok.experimental.Accessors;
 @Accessors(chain = true)
 public class SysDataLog implements Serializable {
 	private static final long serialVersionUID = 1L;
-	
+
 	@TableId(type = IdType.UUID)
 	private String id; //id'
 	private String createBy; //创建人登录名称
