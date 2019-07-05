@@ -6,4 +6,4 @@ swagger:
   basic:
     enable: true
     username: wangyan
-    password: 123456
+    password: wangyan
